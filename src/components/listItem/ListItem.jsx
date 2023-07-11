@@ -15,7 +15,8 @@ const ListItem = ({ index }) => {
          style = {{width: isHovered && 325, height: isHovered && 300, boxShadow: isHovered && '0px 0px 8px 5px rgb(255,255,255,0.1)', borderRadius: isHovered && '5px', position: isHovered && 'absolute', top: isHovered && -150, left: isHovered && index * 225 -50 + index * 2.5}} 
          onMouseEnter={() => setIsHovered(true)} 
          onMouseLeave={() => setIsHovered(false)}>
-        <img src="https://images.summitmedia-digital.com/preview/images/2022/02/22/a-business-proposal-nm.jpg" alt="" /> 
+        {/* <img src="https://images.summitmedia-digital.com/preview/images/2022/02/22/a-business-proposal-nm.jpg" alt="" />  */}
+        <img src="https://i.dailymail.co.uk/i/pix/2016/05/08/01/33F0FE5300000578-3579027-image-a-16_1462666070119.jpg" alt="" />
         {isHovered && 
         (<>
             <video src={trailer} autoPlay={true} loop muted />
